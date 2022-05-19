@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937
+}
+.left-links{
+    display:flex;
+    align-items: right;
+    color: white;
+    padding-left: 10%
+}
+.right-links{
+    display:flex;
+    align-items: left;
+    padding-right: 20px;
+    color: white;
+}
+.streak-one{
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+}
+.left-box{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    align-items: center;
+    color: white;
+    padding-left: 10%;
+}
+.right-box{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.streak-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.streak-two-bits{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imagetext{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 10%;
+}
+.streak-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+.quote{
+    max-width: 40%;
+    flex-wrap: wrap;
+}
+.quoter{
+    align-self: right;
+}
+.streak-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-etc{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882f6;
+    max-width: 90%;
+}
+.moneygrub{
+    max-width: 80%;
+    color: white;
+    padding-left: 10px;
+}
+.button{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;  
+    gap: 8px; 
+}
+a{
+    text-decoration: none;
+    
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+}
