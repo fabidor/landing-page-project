@@ -25,7 +25,7 @@ body{
 .right-links{
     display:flex;
     align-items: left;
-    padding-right: 20px;
+    padding-right: 5%;
     color: white;
 }
 .streak-one{
@@ -74,7 +74,7 @@ body{
     padding: 5%
 }
 .quote{
-    max-width: 40%;
+    max-width: 50%;
     flex-wrap: wrap;
     font-size: 36px;
     font-style: italic;
@@ -82,6 +82,9 @@ body{
 }
 .quoter{
     align-self: right;
+    font-size: 30px;
+    color: #1f2937;
+    justify-self: flex-end;
 }
 .streak-four{
     display: flex;
@@ -94,20 +97,21 @@ body{
     flex-direction: row;
     justify-content: space-between;
     background-color: #3882f6;
-    max-width: 90%;
+    width: 60%;
     border-radius:5px;
+    padding-right: 3%;
 }
 .moneygrub{
     max-width: 80%;
     color: white;
-    padding-left: 10px;
+    padding-left: 10%;
 
 }
 .button{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 #heromain{
     font-size: 48px;
@@ -135,4 +139,5 @@ button{
     border-color: white;
     height: 30px;
     border-radius: 5px;
+    font-weight: 400;
 }
