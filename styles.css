@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 .header{
@@ -10,11 +11,16 @@ body{
     justify-content: space-between;
     background-color: #1f2937
 }
+
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
 .left-links{
     display:flex;
     align-items: right;
     color: white;
-    padding-left: 10%
+    padding-left: 5%
 }
 .right-links{
     display:flex;
@@ -33,7 +39,8 @@ body{
     max-width: 50%;
     align-items: center;
     color: white;
-    padding-left: 10%;
+    padding: 5%;
+
 }
 .right-box{
     max-width: 50%;
@@ -46,6 +53,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5%;
 }
 .streak-two-bits{
     display:flex;
@@ -63,10 +71,14 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: #E5E7EB;
+    padding: 5%
 }
 .quote{
     max-width: 40%;
     flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937
 }
 .quoter{
     align-self: right;
@@ -75,6 +87,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 .button-etc{
     display:flex;
@@ -82,11 +95,13 @@ body{
     justify-content: space-between;
     background-color: #3882f6;
     max-width: 90%;
+    border-radius:5px;
 }
 .moneygrub{
     max-width: 80%;
     color: white;
     padding-left: 10px;
+
 }
 .button{
     display: flex;
@@ -94,12 +109,21 @@ body{
     align-items: center;
     padding: 10px;
 }
+#heromain{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+#herosecond{
+    font-size:18px;
+    color: #e5e7eb;
+}
 
 ul{
     display: flex;
     flex-direction: row;
     list-style: none;  
-    gap: 8px; 
+    gap: 15px; 
 }
 a{
     text-decoration: none;
@@ -109,4 +133,6 @@ button{
     background-color: #3882f6;
     color: white;
     border-color: white;
+    height: 30px;
+    border-radius: 5px;
 }
